@@ -1,0 +1,10 @@
+{
+  "sectionTitle": "About Me",
+  "content": ["I'm a creative developer with 7+ years of experience building award-winning digital experiences. My work sits at the intersection of art and technology, where I combine cutting-edge web technologies with thoughtful design to create memorable user experiences.", "Specializing in WebGL, Three.js, and advanced CSS animations, I've helped brands like Nike, Spotify, and Adobe bring their visions to life through interactive storytelling and immersive web applications.", "When I'm not coding, you'll find me experimenting with generative art, contributing to open-source projects, or speaking at tech conferences about the future of web experiences."],
+  "highlights": [
+    {"icon": "fas fa-award", "title": "Award-Winning", "description": "20+ industry awards for innovation and creativity"},
+    {"icon": "fas fa-rocket", "title": "Performance Focused", "description": "Optimized experiences that load fast and run smooth"},
+    {"icon": "fas fa-paint-brush", "title": "Design & Code", "description": "Bridging the gap between design and development"},
+    {"icon": "fas fa-globe", "title": "Global Impact", "description": "Projects used by millions worldwide"}
+  ]
+}

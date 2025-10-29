@@ -1,0 +1,13 @@
+{
+  "_instructions": "Configure your site's meta information for SEO and branding.",
+  "title": "Marcus Johnson - Creative Developer & Digital Artist",
+  "description": "Award-winning creative developer specializing in immersive web experiences and interactive design.",
+  "author": "Marcus Johnson",
+  "keywords": "creative developer, web developer, digital artist, interactive design, webgl, three.js",
+  "favicon": "assets/images/favicon.ico",
+  "settings": {
+    "enableAnimations": true,
+    "enableParticles": true,
+    "theme": "dark"
+  }
+}

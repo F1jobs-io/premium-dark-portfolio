@@ -1,0 +1,9 @@
+{
+  "sectionTitle": "Expertise",
+  "categories": [
+    {"name": "Creative Development", "skills": ["Three.js", "WebGL", "GSAP", "Canvas API", "WebXR", "Shaders"], "icon": "fas fa-cube"},
+    {"name": "Frontend", "skills": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Vue.js"], "icon": "fas fa-code"},
+    {"name": "Tools & Design", "skills": ["Figma", "Blender", "After Effects", "Cinema 4D", "Git", "VS Code"], "icon": "fas fa-tools"},
+    {"name": "Backend & APIs", "skills": ["Node.js", "GraphQL", "PostgreSQL", "Firebase", "REST APIs", "WebSocket"], "icon": "fas fa-server"}
+  ]
+}
