@@ -1,0 +1,45 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Creative Developer",
+      "company": "Digital Innovation Studio",
+      "period": "2020 — Present",
+      "location": "San Francisco, CA",
+      "description": "Leading development of immersive web experiences using cutting-edge technologies.",
+      "responsibilities": [
+        "Creating interactive 3D experiences with Three.js and WebGL",
+        "Building real-time collaborative applications",
+        "Leading a team of 5 developers",
+        "Architecting scalable front-end solutions"
+      ]
+    },
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Tech Innovators Inc.",
+      "period": "2017 — 2020",
+      "location": "Seattle, WA",
+      "description": "Developed cutting-edge web applications with focus on performance and user experience.",
+      "responsibilities": [
+        "Built responsive web applications using React and TypeScript",
+        "Implemented WebGL visualizations and animations",
+        "Mentored junior developers",
+        "Improved application performance by 60%"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Creative Agency Co.",
+      "period": "2015 — 2017",
+      "location": "Portland, OR",
+      "description": "Full stack development for client projects across various industries.",
+      "responsibilities": [
+        "Developed full-stack web applications",
+        "Created custom WordPress themes and plugins",
+        "Integrated third-party APIs and services",
+        "Collaborated with design and strategy teams"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "_instructions": "Add your projects here. Each project should showcase your work.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "Nike Air Max Experience",
+      "category": "Interactive 3D",
+      "description": "Immersive WebGL experience showcasing the new Air Max collection with real-time 3D product customization.",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=800&h=600&fit=crop",
+      "icon": "fas fa-cube",
+      "technologies": ["Three.js", "WebGL", "GSAP", "React"],
+      "github": "",
+      "demo": "#"
+    },
+    {
+      "title": "Spotify Visualizer",
+      "category": "Data Visualization",
+      "description": "Real-time audio visualizer that creates stunning generative art from your favorite tracks.",
+      "image": "https://images.unsplash.com/photo-1614680376593-902f74cf0d41?w=800&h=600&fit=crop",
+      "icon": "fas fa-music",
+      "technologies": ["Web Audio API", "Canvas", "p5.js"],
+      "github": "",
+      "demo": "#"
+    },
+    {
+      "title": "Adobe Portfolio Pro",
+      "category": "SaaS Platform",
+      "description": "Next-gen portfolio builder with drag-and-drop interface and real-time collaboration.",
+      "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop",
+      "icon": "fas fa-layer-group",
+      "technologies": ["Next.js", "TypeScript", "WebSocket"],
+      "github": "",
+      "demo": "#"
+    },
+    {
+      "title": "Tesla Configurator",
+      "category": "Product Showcase",
+      "description": "Interactive car configurator with photorealistic 3D rendering and AR preview.",
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800&h=600&fit=crop",
+      "icon": "fas fa-car",
+      "technologies": ["Three.js", "WebXR", "Blender"],
+      "github": "",
+      "demo": "#"
+    },
+    {
+      "title": "Crypto Dashboard",
+      "category": "Web App",
+      "description": "Real-time cryptocurrency tracking with advanced charts and portfolio management.",
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+      "icon": "fas fa-chart-line",
+      "technologies": ["React", "D3.js", "Node.js"],
+      "github": "",
+      "demo": "#"
+    },
+    {
+      "title": "Art Gallery VR",
+      "category": "Virtual Reality",
+      "description": "Virtual art gallery experience accessible from any device with WebXR.",
+      "image": "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=800&h=600&fit=crop",
+      "icon": "fas fa-vr-cardboard",
+      "technologies": ["A-Frame", "WebXR", "Babylon.js"],
+      "github": "",
+      "demo": "#"
+    }
+  ]
+}

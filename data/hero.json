@@ -1,22 +1,57 @@
 {
+  "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
   "greeting": "Welcome, I'm",
   "name": "Marcus Johnson",
   "title": "Creative Developer & Digital Artist",
-  "tagline": "Crafting immersive digital experiences that push boundaries",
-  "description": "I blend code and creativity to build stunning, interactive web experiences that leave lasting impressions.",
-  "cta": [
-    {"text": "Explore Work", "href": "#work", "type": "primary"},
-    {"text": "Get in Touch", "href": "#contact", "type": "secondary"}
+  "summary": "Crafting immersive digital experiences that push boundaries. I blend code and creativity to build stunning, interactive web experiences that leave lasting impressions.",
+  "highlights": [
+    {
+      "icon": "fas fa-briefcase",
+      "text": "7+ Years Experience"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "text": "100+ Projects Completed"
+    },
+    {
+      "icon": "fas fa-trophy",
+      "text": "20+ Awards Won"
+    }
   ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "Explore Work",
+        "href": "#work",
+        "type": "primary"
+      },
+      {
+        "text": "Get in Touch",
+        "href": "#contact",
+        "type": "secondary"
+      }
+    ]
+  },
   "socialLinks": [
-    {"platform": "GitHub", "url": "https://github.com/marcusjohnson", "icon": "fab fa-github"},
-    {"platform": "LinkedIn", "url": "https://linkedin.com/in/marcusjohnson", "icon": "fab fa-linkedin-in"},
-    {"platform": "Dribbble", "url": "https://dribbble.com/marcusjohnson", "icon": "fab fa-dribbble"},
-    {"platform": "CodePen", "url": "https://codepen.io/marcusjohnson", "icon": "fab fa-codepen"}
-  ],
-  "stats": [
-    {"number": "7+", "label": "Years Experience"},
-    {"number": "100+", "label": "Projects Completed"},
-    {"number": "20+", "label": "Awards Won"}
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/marcusjohnson",
+      "icon": "fab fa-github"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/marcusjohnson",
+      "icon": "fab fa-linkedin-in"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com/marcusjohnson",
+      "icon": "fab fa-dribbble"
+    },
+    {
+      "platform": "CodePen",
+      "url": "https://codepen.io/marcusjohnson",
+      "icon": "fab fa-codepen"
+    }
   ]
 }
