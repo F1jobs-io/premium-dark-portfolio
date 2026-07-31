@@ -124,8 +124,31 @@ async function loadAbout() {
 async function loadExperience() {
     try {
         const data = await fetch('data/experience.json').then(r => r.json());
-        // Experience section rendering - template may not have this section
-        console.log('Experience data loaded:', data);
+        const container = document.getElementById('experience-timeline');
+        if (!container) return;
+
+        const jobs = Array.isArray(data.experiences) ? data.experiences : [];
+        const section = document.getElementById('experience');
+        if (!jobs.length) { if (section) section.style.display = 'none'; return; }
+
+        const titleEl = document.getElementById('experience-title');
+        if (titleEl && data.sectionTitle) titleEl.textContent = data.sectionTitle;
+
+        container.innerHTML = jobs.map(job => {
+            const points = Array.isArray(job.responsibilities) ? job.responsibilities : [];
+            const tech = Array.isArray(job.technologies) ? job.technologies : [];
+            return `
+            <article class="experience-item">
+                <div class="experience-header">
+                    <h3 class="experience-role">${job.title || ''}</h3>
+                    <span class="experience-period">${job.period || ''}</span>
+                </div>
+                <p class="experience-company">${job.company || ''}${job.location ? ` <span>· ${job.location}</span>` : ''}</p>
+                ${job.description ? `<p class="experience-description">${job.description}</p>` : ''}
+                ${points.length ? `<ul class="experience-points">${points.map(p => `<li>${p}</li>`).join('')}</ul>` : ''}
+                ${tech.length ? `<div class="experience-tech">${tech.map(t => `<span>${t}</span>`).join('')}</div>` : ''}
+            </article>`;
+        }).join('');
     } catch (error) {
         console.error('Error loading experience:', error);
     }

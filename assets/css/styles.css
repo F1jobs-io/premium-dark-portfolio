@@ -661,3 +661,95 @@ body {
     .hero-cta { flex-direction: column; }
     .btn { width: 100%; text-align: center; }
 }
+
+/* ===== EXPERIENCE ===== */
+.experience-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.experience-item {
+    padding: 2.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(6, 182, 212, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    transition: 0.3s;
+}
+.experience-item:hover {
+    border-color: rgba(6, 182, 212, 0.5);
+    transform: translateY(-4px);
+}
+.experience-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.5rem 1.5rem;
+    margin-bottom: 0.75rem;
+}
+.experience-role {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+.experience-period {
+    font-size: 0.9rem;
+    color: var(--accent-cyan-light);
+    white-space: nowrap;
+}
+.experience-company {
+    font-size: 1.05rem;
+    color: var(--accent-gold-light);
+    margin-bottom: 1rem;
+}
+.experience-company span {
+    color: var(--text-tertiary);
+}
+.experience-description {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+.experience-points {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+}
+.experience-points li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.6rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+.experience-points li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.6em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--gradient-primary);
+}
+.experience-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.experience-tech span {
+    padding: 0.35rem 0.85rem;
+    font-size: 0.8rem;
+    border-radius: 999px;
+    color: var(--text-tertiary);
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(6, 182, 212, 0.18);
+}
+@media (max-width: 640px) {
+    .experience-item { padding: 1.75rem; }
+    .experience-role { font-size: 1.25rem; }
+}
